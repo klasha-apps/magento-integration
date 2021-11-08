@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp:etc/csp_whitelist.xsd">
+    <policies>
+        <policy id="script-src">
+            <values>
+                <value id="digital-o-sub" type="host">https://klastatic.fra1.cdn.digitaloceanspaces.com</value>
+                <value id="digit-o" type="host">https://digitaloceanspaces.com</value>
+                <value id="digital-o-gate" type="host">https://gate.klasapps.com</value>
+                <value id="digital-o-gatescript" type="host">https://klasha.com</value>
+                <value id="digital-src-frame" type="host">https://klastatic.fra1.cdn.digitaloceanspaces.com/</value>
+                <value id="digital-src-no-cdn" type="host">https://klastatic.fra1.digitaloceanspaces.com/</value>
+            </values>
+        </policy>
+        <policy id="style-src">
+            <value id="digital-o-style" type="host">https://klastatic.fra1.cdn.digitaloceanspaces.com</value>
+            <value id="digital-o-gateg" type="host">https://*.digitaloceanspaces.com</value>
+        </policy>
+        <policy id="connect-src">
+            <values>
+                <value id="devdocs" type="host">https://klastatic.fra1.cdn.digitaloceanspaces.com</value>
+                <value id="digital-o-gatek" type="host">https://gate.klasha.com</value>
+                <value id="digital-o-gateone" type="host">https://gate.klasapps.com</value>
+                <value id="digital-o-gatetwo" type="host">https://ktests.com</value>
+            </values>
+        </policy>
+
+        <policy id="frame-src">
+            <value id="digital-o-frame" type="host">https://klastatic.fra1.cdn.digitaloceanspaces.com/</value>
+        </policy>
+    </policies>
+</csp_whitelist>
